@@ -41,12 +41,3 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
-
-
-# Force GitHub to recognize the language as Dart
-*.dart linguist-language=Dart
-
-# Mark directories to include Dart files
-/lib/* linguist-language=Dart
-/test/* linguist-language=Dart
-/bin/* linguist-language=Dart
